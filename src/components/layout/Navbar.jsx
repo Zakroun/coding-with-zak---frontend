@@ -70,11 +70,11 @@ export default function Navbar() {
             >
               <span>
                 {locale === 'fr' ? (
-                  <img src="/public/images/flags/fr.png" alt="French" className="w-4" />
+                  <img src="/images/flags/fr.png" alt="French" className="w-4" />
                 ) : locale === 'en' ? (
-                  <img src="/public/images/flags/en.png" alt="English" className="w-4" />
+                  <img src="/images/flags/en.png" alt="English" className="w-4" />
                 ) : (
-                  <img src="/public/images/flags/ar.png" alt="Arabic" className="w-4" />
+                  <img src="/images/flags/ar.png" alt="Arabic" className="w-4" />
                 )}
               </span>
               <span className="uppercase tracking-wider text-secondary">
@@ -121,11 +121,11 @@ export default function Navbar() {
                 >
                   <span>
                     {locale === 'fr' ? (
-                      <img src="/public/images/flags/fr.png" alt="French" className="w-4" />
+                      <img src="/images/flags/fr.png" alt="French" className="w-4" />
                     ) : locale === 'en' ? (
-                      <img src="/public/images/flags/en.png" alt="English" className="w-4" />
+                      <img src="/images/flags/en.png" alt="English" className="w-4" />
                     ) : (
-                      <img src="/public/images/flags/ar.png" alt="Arabic" className="w-4" />
+                      <img src="/images/flags/ar.png" alt="Arabic" className="w-4" />
                     )}
                   </span>
                   <span className="uppercase tracking-wider text-secondary">
