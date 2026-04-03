@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useLang } from '../hooks/useLang'
 import Badge from '../components/ui/Badge'
 import SectionReveal from '../components/ui/SectionReveal'
+import { FaSpinner } from "react-icons/fa";
 
 export default function Contact() {
   const { t, locale } = useLang()
@@ -20,11 +21,13 @@ export default function Contact() {
     e.preventDefault()
     setStatus('loading')
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('http://localhost:5000/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       })
+      const data = await res.json()
+      console.log('ERROR FROM BACK:', data)
       if (res.ok) {
         setStatus('success')
         setForm({ name: '', email: '', subject: '', message: '' })
@@ -150,6 +153,11 @@ export default function Contact() {
                       placeholder="Décrivez votre projet..."
                       className="w-full border border-light focus:border-black outline-none font-body text-sm px-4 py-3 transition-colors bg-white resize-none"
                     />
+                    <p className="text-xs text-gray-500 mt-1">
+                      {isRtl
+                        ? 'الرسالة خاصها تكون بين 10 و 5000 حرف'
+                        : 'Message must be between 10 and 5000 characters'}
+                    </p>
                   </div>
                   <button
                     type="submit"
@@ -157,7 +165,7 @@ export default function Contact() {
                     className="btn-primary self-start disabled:opacity-60 disabled:cursor-not-allowed inline-flex items-center gap-2"
                   >
                     {status === 'loading' ? (
-                      <>{t('contact.form.sending')} <span className="animate-spin">⏳</span></>
+                      <>{t('contact.form.sending')} <span className="animate-spin"><FaSpinner size={14} /></span></>
                     ) : (
                       <>{t('contact.form.submit')} <Send size={14} style={{ transform: isRtl ? 'scaleX(-1)' : 'none' }} /></>
                     )}
