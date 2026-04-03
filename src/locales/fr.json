@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "cta": "Démarrer un projet"
+  },
+  "hero": {
+    "badge": "Agence Digitale Moderne",
+    "title": "Nous Créons des",
+    "titleHighlight": "Solutions Digitales",
+    "titleEnd": "qui Convertissent",
+    "subtitle": "De la conception au déploiement, nous construisons des applications web et mobiles modernes qui accélèrent votre croissance.",
+    "cta": "Démarrer Votre Projet",
+    "ctaSecondary": "Voir nos réalisations",
+    "stat1": "Projets livrés",
+    "stat2": "Clients satisfaits",
+    "stat3": "Années d'expérience"
+  },
+  "services": {
+    "badge": "Ce que nous faisons",
+    "title": "Nos Services",
+    "subtitle": "Des solutions digitales complètes pour faire croître votre business en ligne.",
+    "items": {
+      "web": { "title": "Création de Sites Web", "desc": "Sites vitrine, landing pages et portails web sur mesure, optimisés pour la conversion." },
+      "webapp": { "title": "Applications Web (SaaS)", "desc": "Plateformes SaaS évolutives avec architecture moderne et expérience utilisateur fluide." },
+      "mobile": { "title": "Applications Mobiles", "desc": "Apps iOS et Android performantes avec React Native, du MVP au produit final." },
+      "ecommerce": { "title": "E-commerce", "desc": "Boutiques en ligne WooCommerce ou sur mesure avec intégration paiement complète." },
+      "dashboard": { "title": "Dashboards & Panneaux Admin", "desc": "Interfaces de gestion riches en données, tableaux de bord analytiques et CRM." },
+      "api": { "title": "Développement API & Backend", "desc": "APIs REST et GraphQL robustes, microservices et intégrations tierces." },
+      "design": { "title": "UI/UX Design", "desc": "Design centré utilisateur avec des interfaces modernes, accessibles et mémorables." },
+      "perf": { "title": "Optimisation des Performances", "desc": "Audit technique, optimisation Core Web Vitals et amélioration des temps de chargement." },
+      "anim": { "title": "Loading & Animations", "desc": "Animations fluides, transitions soignées et expériences visuelles qui captivent." }
+    },
+    "viewAll": "Voir tous les services"
+  },
+  "tech": {
+    "badge": "Stack Technique",
+    "title": "Technologies que nous maîtrisons",
+    "subtitle": "Nous utilisons les meilleures technologies du marché pour des produits robustes et scalables."
+  },
+  "cta": {
+    "title": "Prêt à lancer votre projet ?",
+    "subtitle": "Discutons de vos besoins et construisons quelque chose d'exceptionnel ensemble.",
+    "button": "Démarrer Maintenant",
+    "buttonSecondary": "Nous contacter"
+  },
+  "about": {
+    "badge": "Qui sommes-nous",
+    "title": "Une Agence Digitale",
+    "titleHighlight": "Orientée Résultats",
+    "desc1": "CodingWithZak est une agence digitale spécialisée dans le développement de solutions web et mobiles modernes. Nous accompagnons startups et entreprises dans leur transformation numérique.",
+    "desc2": "Notre approche combine excellence technique et sens du design pour livrer des produits qui dépassent les attentes de nos clients.",
+    "values": {
+      "quality": { "title": "Qualité", "desc": "Code propre, architecture solide, livrables irréprochables." },
+      "speed": { "title": "Rapidité", "desc": "Délais respectés et itérations rapides pour votre time-to-market." },
+      "support": { "title": "Support", "desc": "Accompagnement continu bien après la livraison du projet." }
+    },
+    "team": {
+    "badge": "Notre Équipe",
+    "title": "Les personnes derrière le projet",
+    "subtitle": "Une équipe passionnée, dédiée à livrer des solutions digitales d'exception."
+  },
+    "cta": "Travailler avec nous"
+  },
+  "projects": {
+    "badge": "Nos Réalisations",
+    "title": "Projets Récents",
+    "subtitle": "Un aperçu des solutions digitales que nous avons construites pour nos clients.",
+    "filters": {
+      "all": "Tous",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ecommerce": "E-commerce",
+      "dashboard": "Dashboard"
+    },
+    "viewProject": "Voir le projet",
+    "viewCode": "Code source"
+  },
+  "contact": {
+    "badge": "Parlons-en",
+    "title": "Démarrez Votre Projet",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons sous 24h.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé ! Nous vous répondrons très bientôt.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "locationValue": "Maroc",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "Nous construisons des solutions digitales modernes.",
+    "links": "Liens rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec"
+  },
+  "whatsapp": {
+    "message": "Bonjour, je souhaite démarrer un projet avec vous"
+  },
+  "loading": "Chargement..."
+}

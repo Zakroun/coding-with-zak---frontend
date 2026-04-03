@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Start a Project"
+  },
+  "hero": {
+    "badge": "Modern Digital Agency",
+    "title": "We Build",
+    "titleHighlight": "Digital Solutions",
+    "titleEnd": "that Convert",
+    "subtitle": "From design to deployment, we build modern web and mobile applications that accelerate your growth.",
+    "cta": "Start Your Project",
+    "ctaSecondary": "View our work",
+    "stat1": "Projects delivered",
+    "stat2": "Happy clients",
+    "stat3": "Years of experience"
+  },
+  "services": {
+    "badge": "What we do",
+    "title": "Our Services",
+    "subtitle": "Complete digital solutions to grow your online business.",
+    "items": {
+      "web": {
+        "title": "Website Creation",
+        "desc": "Custom showcase sites, landing pages and web portals, optimized for conversion."
+      },
+      "webapp": {
+        "title": "Web Applications (SaaS)",
+        "desc": "Scalable SaaS platforms with modern architecture and seamless user experience."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "desc": "Performant iOS and Android apps with React Native, from MVP to final product."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "desc": "WooCommerce or custom online stores with full payment integration."
+      },
+      "dashboard": {
+        "title": "Dashboards & Admin Panels",
+        "desc": "Data-rich management interfaces, analytics dashboards and CRM systems."
+      },
+      "api": {
+        "title": "API & Backend Development",
+        "desc": "Robust REST and GraphQL APIs, microservices and third-party integrations."
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "desc": "User-centered design with modern, accessible and memorable interfaces."
+      },
+      "perf": {
+        "title": "Performance Optimization",
+        "desc": "Technical audit, Core Web Vitals optimization and load time improvement."
+      },
+      "anim": {
+        "title": "Loading & Animations",
+        "desc": "Smooth animations, polished transitions and captivating visual experiences."
+      }
+    },
+    "viewAll": "View all services"
+  },
+  "tech": {
+    "badge": "Tech Stack",
+    "title": "Technologies we master",
+    "subtitle": "We use the best market technologies for robust and scalable products."
+  },
+  "cta": {
+    "title": "Ready to launch your project?",
+    "subtitle": "Let's discuss your needs and build something exceptional together.",
+    "button": "Get Started Now",
+    "buttonSecondary": "Contact us"
+  },
+  "about": {
+    "badge": "Who we are",
+    "title": "A Digital Agency",
+    "titleHighlight": "Results-Driven",
+    "desc1": "CodingWithZak is a digital agency specializing in modern web and mobile solution development. We guide startups and companies through their digital transformation.",
+    "desc2": "Our approach combines technical excellence and design sensibility to deliver products that exceed our clients' expectations.",
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "desc": "Clean code, solid architecture, impeccable deliverables."
+      },
+      "speed": {
+        "title": "Speed",
+        "desc": "Deadlines met and rapid iterations for your time-to-market."
+      },
+      "support": {
+        "title": "Support",
+        "desc": "Ongoing accompaniment long after project delivery."
+      }
+    },
+    "team": {
+      "badge": "Our Team",
+      "title": "The people behind the project",
+      "subtitle": "A passionate team, dedicated to delivering exceptional digital solutions."
+    },
+    "cta": "Work with us"
+  },
+  "projects": {
+    "badge": "Our Work",
+    "title": "Recent Projects",
+    "subtitle": "A glimpse of the digital solutions we have built for our clients.",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ecommerce": "E-commerce",
+      "dashboard": "Dashboard"
+    },
+    "viewProject": "View project",
+    "viewCode": "Source code"
+  },
+  "contact": {
+    "badge": "Let's talk",
+    "title": "Start Your Project",
+    "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll reply very soon.",
+      "error": "An error occurred. Please try again or contact us directly."
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "locationValue": "Morocco",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "footer": {
+    "tagline": "We build modern digital solutions.",
+    "links": "Quick links",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  },
+  "whatsapp": {
+    "message": "Hello, I want to start a project with you"
+  },
+  "loading": "Loading..."
+}
